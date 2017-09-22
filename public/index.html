@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REPRODUCTOR CON ARDUINO</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+
+</head>
+<body>
+	<h1>PROYECTO FINAL</h1>
+	<h3>Reproductor con Arduino</h3>
+
+	<div class="contenedor_leds">
+			<div><h3 id="nombre">Harry Potter</h3></div>
+			<h4 id="tiempo"></h4>
+			<div id="foto"></div>
+			<div class = 'leds' id="atras">
+			</div>
+			<div class = 'leds'>
+				<input id = "play" type="button" name="reproducir" class = "apagado" value="|>" onclick="reproducir()">
+			</div>
+			<div class = 'leds' id ="adelante">
+			</div>
+			
+	</div>
+
+
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

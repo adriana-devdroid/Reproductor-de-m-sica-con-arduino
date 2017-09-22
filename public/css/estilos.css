@@ -1,0 +1,69 @@
+body {
+	background-color: #000000;
+}
+
+.encendido {
+	background-color: #2D93B1  ;
+}
+.apagado:hover {
+	background-color: #2D93B1  ;
+}
+
+.apagado{
+	background-color: #0008FF  ;
+}
+.deshabilitar{
+	background-color: #7E919F;
+}
+
+h3 {
+	color: white;
+	font-family: 'century gothic';
+	text-align: center;
+}
+
+.leds {
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: #0008FF;
+	font-family: century gothic;
+}
+h1 {
+	text-align: center;
+	color:  white;
+	font-family: century gothic;
+}
+h3 {
+	text-align: center;
+	color:  #CFC244;
+	font-family: century gothic;
+}
+#ant, #sig, #play {
+	color: white;
+	font-family: century gothic;
+	border-radius: 30px;
+	width: 60px;
+	height: 60px;
+
+}
+
+.contenedor_leds {
+	border: solid;
+	border-radius: 25px;
+	border-color: #447BCF;
+	width: 30%;
+	height: 600px;
+	padding: 2%;
+	float: left;
+	margin-left: 33%;
+	margin-top: 2%;
+}
+#foto{
+
+	text-align: center;
+}
+#tiempo{
+	color: white;
+	text-align: center;
+}
