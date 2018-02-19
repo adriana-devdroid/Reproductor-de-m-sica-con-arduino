@@ -7,6 +7,6 @@ Seguir el archivo INSTRUCCIONES.txt
 
 Pantallas
 ----------
-![Reproductor](/ReproductorScreen1.png)
+![Reproductor](/ReproductorScreen1.jpeg)
 
-![Reproductor arduino](/ReproductorScreen2.png)
+![Reproductor arduino](/ReproductorScreen2.jpeg)
